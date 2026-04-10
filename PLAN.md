@@ -20,6 +20,16 @@
 
 ---
 
+## Performance Patterns (applied inline during relevant phases)
+
+- Debouncing: search input (Ph 12), price filter (Ph 12)
+- Throttling: geolocation emit (Ph 14), scroll (Ph 12 if infinite scroll)
+- Memoization: useMemo for cart total (Ph 13), useCallback for handlers (Ph 12+), React.memo on ProductCard/CartItem/OrderRow
+- Optimistic updates: cart add/remove via RTK Query (Ph 13)
+- Lazy loading: next/dynamic for Leaflet+Recharts, next/image everywhere
+- RTK Query SWR: keepUnusedDataFor=300 on product/category endpoints
+- Virtualization: react-window on admin tables if row count > 500 (Ph 16)
+
 ## Repository Structure
 
 ```
