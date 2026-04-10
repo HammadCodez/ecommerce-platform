@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/hammadkodez/ecommerce-platform/backend/logs/.a49d31f82382d688068233e8d8f5bdf925655e58-audit.json",
+    "files": [
+        {
+            "date": 1775832095944,
+            "name": "/home/hammadkodez/ecommerce-platform/backend/logs/application-2026-04-10.log",
+            "hash": "8665ba3d69ef3439cc04f6fac01792547713a810eb49bea68d1a855ec59dc48f"
+        }
+    ],
+    "hashType": "sha256"
+}
